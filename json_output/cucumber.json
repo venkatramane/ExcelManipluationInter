@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Excel Manipulation Scenario",
+        "description": "",
+        "id": "excel-manipulation;excel-manipulation-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1770117543,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Excel file value copy and fetch in new Excel File",
+            "match": {
+              "location": "StepDefinition.excel_file_value_copy_and_fetch_in_new_Excel_File()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51416143,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Convert MNL to AEST",
+            "match": {
+              "location": "StepDefinition.convert_MNL_to_AEST()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44975930,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Create new Column and find time taken",
+            "match": {
+              "location": "StepDefinition.create_new_Column_and_find_time_taken()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 757232228,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Remove Dupliacte VCI-Codes and their respective Rows",
+            "match": {
+              "location": "StepDefinition.remove_Dupliacte_VCI_Codes_and_their_respective_Rows()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Excel Manipulation",
+    "description": "",
+    "id": "excel-manipulation",
+    "keyword": "Feature",
+    "uri": "C:/Users/VENKATRAMAN/workspace/ExcelManipulation/ExcelManipulation/src/main/java/feature/excel_manipulation.feature"
+  }
+]
